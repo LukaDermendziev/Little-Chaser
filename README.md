@@ -11,7 +11,7 @@ A 2D platformer game built in Unity where the player navigates through a side-sc
 | Action | Key / Button |
 |--------|-------------|
 | Move left / right | `A` / `D` or Arrow keys |
-| Jump | `Space` or `W` or Up arrow |
+| Jump | `Space` |
 | Pause / Menu | `Escape` |
 
 **Goal:** Reach the end of the level (the victory zone) while collecting as many tokens as possible. Avoid enemies — or jump on top of them to defeat them. Falling into death zones or getting hit too many times will respawn the player.
