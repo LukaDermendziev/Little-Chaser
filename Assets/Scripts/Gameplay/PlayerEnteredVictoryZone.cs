@@ -1,6 +1,7 @@
 using Platformer.Core;
 using Platformer.Mechanics;
 using Platformer.Model;
+using Platformer.UI;
 
 namespace Platformer.Gameplay
 {
@@ -19,6 +20,9 @@ namespace Platformer.Gameplay
         {
             model.player.animator.SetTrigger("victory");
             model.player.controlEnabled = false;
+
+            if (VictoryUIController.Instance != null)
+                VictoryUIController.Instance.ShowVictoryScreen();
         }
     }
 }
