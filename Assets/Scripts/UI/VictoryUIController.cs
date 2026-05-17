@@ -40,13 +40,6 @@ namespace Platformer.UI
         public void ShowVictoryScreen()
         {
             if (victoryPanel == null) return;
-
-            if (congratsText != null)
-                congratsText.text = congratsMessage;
-
-            if (subtitleText != null)
-                subtitleText.text = subtitleMessage;
-
             victoryPanel.SetActive(true);
         }
 
