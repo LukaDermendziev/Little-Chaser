@@ -2,6 +2,7 @@
 
 A 2D platformer game built in Unity where the player navigates through a side-scrolling level, collects tokens, defeats enemies, and reaches the victory zone.
 **Watch it on youtube:** [Click me!](https://youtu.be/pxyZEyt8HIs)
+
 🎮 **Play it online:** [Little Chaser on Unity Play](https://play.unity.com/en/games/de4c9422-ab80-4d3d-aab4-9f5eff0d4a53/little-chaser)
 
 ---
